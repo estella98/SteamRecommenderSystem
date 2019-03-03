@@ -16,7 +16,6 @@ gameDF = pd.read_csv("gameList.csv", usecols=[0], dtype= str)
 gameList = gameDF['gameName'].values.tolist()
 
 for item in gameList:
-    
     urlEncode = req.pathname2url(item)
     #print(urlEncode)
     print(item)
