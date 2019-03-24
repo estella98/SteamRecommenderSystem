@@ -1,5 +1,6 @@
 # SteamRecommenderSystem
-a recommender system that learns from users'play behaviours 
+A recommender system built upon the user behaviors & game statistics collected by Steam. Methods Experimented in this project include: Popularity based, Collaborative filtering and Matrix Factorization.
+
 
 ## Dataset
 The original dataset is generated entirely from public Steam data via Steam Web API. 
@@ -20,7 +21,7 @@ Models could be found inside of the Recommender_Model folder
 
 * Popularity based
 * Collaborative filtering by TuriCreate
-* ALS-based recommender
+* Matrix Factorization - ALS-based recommender
 
 ## Data supplement
 Originally I wrote two Python Scripts to get more sepecific tags of each game which could be used as a supplement to 
@@ -34,7 +35,7 @@ Item Similarity
 
 
 
-
+Precision Recall
 
 
 ##### Special thanks to Ella Chen @s93chen
