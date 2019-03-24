@@ -1,5 +1,5 @@
 # SteamRecommenderSystem
-A recommender system built upon the user behaviors & game statistics collected by Steam. Methods Experimented in this project include: Popularity based, Collaborative filtering and Matrix Factorization.
+A recommender system built upon the user behaviors & game statistics collected by Steam. Methods Experimented in this project include: Popularity based and Collaborative filtering.
 
 
 ## Dataset
@@ -20,8 +20,10 @@ The project is written in two languages: Python and Spark. Both Codes have been 
 Models could be found inside of the Recommender_Model folder
 
 * Popularity based
-* Collaborative filtering by TuriCreate
-* Matrix Factorization - ALS-based recommender
+* Collaborative filtering 
+   * ALS-based recommender
+   * Turicreate
+
 
 ## Data supplement
 Originally I wrote two Python Scripts to get more sepecific tags of each game which could be used as a supplement to 
