@@ -18,13 +18,14 @@ The project is written in two languages: Python and Spark. Both Codes have been 
 ## Models
 Models could be found inside of the Recommender_Model folder
 
-* Cotent - based Filtering
+* Popularity based
 * Collaborative filtering by TuriCreate
 * ALS-based recommender
 
 ## Data supplement
 Originally I wrote two Python Scripts to get more sepecific tags of each game which could be used as a supplement to 
-compute game similarities. However, according to the robots.txt document, Steam does not grant permission to scrape data at
+compute game similarities and build content-based model.
+However, according to the robots.txt document, Steam does not grant permission to scrape data at
 https://steamdb.info/
 I will try to collect this piece of data from Steam Web API, or extracting the data from the exisiting [dataset](https://steam.internet.byu.edu/) online.
 
