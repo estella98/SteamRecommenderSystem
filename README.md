@@ -39,6 +39,7 @@ Item Similarity
 
 
 Precision Recall
+![](../master/image/SVDperformance.png)  
 
 
 
