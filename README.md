@@ -22,7 +22,8 @@ Models could be found inside of the Recommender_Model folder
 * Popularity based
 * Collaborative filtering 
    * ALS-based recommender
-   * Turicreate
+   * Turicreate 
+   * SVD 
 
 
 ## Data supplement
@@ -38,6 +39,7 @@ Item Similarity
 
 
 Precision Recall
+
 
 
 ##### Special thanks to Ella Chen @s93chen
